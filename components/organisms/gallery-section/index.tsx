@@ -80,9 +80,9 @@ export function GallerySection() {
             ]}
             className="w-full"
           >
-            <CarouselContent>
+            <CarouselContent className="-ml-4 flex items-stretch">
               {galleryData.map((item, index) => (
-                <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={item.id} className="pl-4 md:basis-1/2 lg:basis-1/3 flex h-full items-stretch py-1">
                   <GalleryCard
                     item={item}
                     index={index}
