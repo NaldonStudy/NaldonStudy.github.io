@@ -61,6 +61,12 @@ const baseGalleryData: Omit<GalleryItem, 'title' | 'description'>[] = [
     thumbnail: 'https://img.youtube.com/vi/ChO0Hc_Oq50/maxresdefault.jpg'
   },
   {
+    id: 'shorts-contest',
+    type: 'youtube',
+    src: 'https://www.youtube.com/embed/7zB-pFFXWq0',
+    thumbnail: 'https://img.youtube.com/vi/7zB-pFFXWq0/maxresdefault.jpg'
+  },
+  {
     id: 'lab-1',
     type: 'image',
     src: '/assets/gallery/lab-01.png'
@@ -121,6 +127,10 @@ const koGalleryTranslations: Record<string, GalleryTranslation> = {
     title: '대전 캠퍼스의 반전 매력 (Shorts)',
     description: '노잼도시 대전에서의 유잼 라이프, SSAFY 라이프',
   },
+  'shorts-contest': {
+    title: 'SSAFYTV 공모전 안내 (Shorts)',
+    description: 'SSAFYTV에서 진행된 공모전 관련 안내 및 소식 전달 콘텐츠',
+  },
   'lab-1': {
     title: '연구실 동료들과의 추억 #1',
     description: '학부 연구실에서 함께 고생하며 즐겁게 지낸 동료들과 한 컷',
@@ -175,6 +185,10 @@ const enGalleryTranslations: Record<string, GalleryTranslation> = {
   'shorts-daejeon': {
     title: 'The Unexpected Charm of Daejeon Campus (Shorts)',
     description: 'Fun life at Daejeon, the SSAFY life',
+  },
+  'shorts-contest': {
+    title: 'SSAFYTV Contest Notice (Shorts)',
+    description: 'Contest notice and announcement video hosted on SSAFYTV',
   },
   'lab-1': {
     title: 'Memories with Lab Colleagues #1',
