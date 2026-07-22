@@ -114,7 +114,7 @@ export function SkillsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
             >
-              <Card className="h-full border-border/50 bg-card/90 shadow-sm overflow-hidden">
+              <Card className="h-full border-border bg-card shadow-md dark:shadow-black/50 overflow-hidden">
                 <CardHeader className="border-b border-border/50 bg-secondary/10">
                   <CardTitle className="text-xl text-foreground">{category.category}</CardTitle>
                 </CardHeader>

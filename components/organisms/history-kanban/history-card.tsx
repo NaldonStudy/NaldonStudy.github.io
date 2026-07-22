@@ -38,7 +38,7 @@ export const HistoryCard = memo(({ card, onClick }: HistoryCardProps) => {
       onClick={onClick}
       className="cursor-pointer"
     >
-      <Card className={`border-border/60 shadow-sm hover:shadow-md transition-all bg-card/95 relative overflow-hidden ${card.type === 'Story' ? 'border-l-4 border-l-green-500' : ''}`}>
+      <Card className={`border-border shadow-md dark:shadow-black/50 hover:shadow-lg transition-all bg-card relative overflow-hidden ${card.type === 'Story' ? 'border-l-4 border-l-green-500' : ''}`}>
         <div className={`absolute top-0 right-0 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider border-l border-b rounded-bl-md ${getStatusColor(card.status)}`}>
           {card.status}
         </div>

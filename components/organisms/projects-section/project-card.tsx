@@ -37,7 +37,7 @@ export const ProjectCard = memo(({
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <Card
-        className="group h-full cursor-pointer border-border/50 bg-card/90 shadow-sm hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+        className="group h-full cursor-pointer border-border bg-card shadow-md dark:shadow-black/50 hover:border-primary/40 hover:shadow-xl transition-all duration-300"
         onClick={onClick}
       >
         <div className="relative h-48 bg-gradient-to-br from-primary/20 to-accent/20 overflow-hidden">

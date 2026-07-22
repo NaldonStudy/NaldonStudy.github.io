@@ -81,7 +81,7 @@ export function ContactSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <Card className="border-border/50 bg-card/95">
+          <Card className="border-border bg-card shadow-md dark:shadow-black/50">
             <CardContent className="p-8">
               <div className="text-center mb-8">
                 <h3 className="text-xl font-semibold text-foreground mb-2">

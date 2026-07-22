@@ -127,7 +127,7 @@ export function AboutSection() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <Card className="border-border/50 bg-card/95 shadow-sm overflow-hidden">
+            <Card className="border-border bg-card shadow-md dark:shadow-black/50 overflow-hidden">
               <div className="h-1.5 bg-gradient-to-r from-primary to-accent" />
               <CardContent className="p-8">
                 <div className="flex items-center justify-between mb-8">
