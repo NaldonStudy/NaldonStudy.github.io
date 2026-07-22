@@ -51,7 +51,8 @@ const baseHistoryData: {
     epicId: 'mentoring-scale-out',
     period: '2026.01 ~ Present',
     cards: [
-      { id: 'DH-301', type: 'Story', status: 'In Progress', period: '2026.01 ~ Present', logo: '/assets/history/ssafy-blue.jpg' },
+      { id: 'DH-302', type: 'Story', status: 'In Progress', period: '2026.06 ~ Present', logo: '/assets/history/ssafy-blue.jpg' },
+      { id: 'DH-301', type: 'Story', status: 'Done', period: '2026.01 ~ 2026.06', logo: '/assets/history/ssafy-blue.jpg' },
     ],
   },
 ]
@@ -128,7 +129,7 @@ const koHistoryTranslation: HistoryTranslation = {
     },
     'DH-301': {
       title: '삼성청년 SW-AI 아카데미 14기 \n실습코치',
-      subtitle: 'SW Practice Coach (2026.01 ~ 현재)',
+      subtitle: 'SW Practice Coach (2026.01 ~ 2026.06)',
       content: '교육생 대상 프로젝트 아키텍처 설계 멘토링 및 코드 리뷰 진행.',
       details: [
         '교육생들의 기술적 문제 해결(Troubleshooting) 지원 및 가이드',
@@ -139,6 +140,19 @@ const koHistoryTranslation: HistoryTranslation = {
         '교육생들의 학업 성취를 위한 멘탈케어',
       ],
       tags: ['Mentoring', 'CodeReview', 'Leadership', 'Architecture'],
+    },
+    'DH-302': {
+      title: '삼성청년 SW-AI 아카데미 15기 \n실습코치',
+      subtitle: 'SW Practice Coach (2026.06 ~ 현재)',
+      content: '기존 실습코치 역할을 지속 수행함과 동시에, 계약 연장으로 15기 실습코치 및 SSAFY 공식 유튜브 MC 역할 추가 수행.',
+      details: [
+        '14기에 이어 계약 연장을 통해 15기 교육생 대상 전반적인 SW 실습, 코드 리뷰 및 아키텍처 멘토링 지속 수행',
+        '기존 코칭 업무와 더불어 SSAFY 공식 유튜브 채널 MC 역할을 새롭게 맡아 주요 행사, 인터뷰 및 자치회 방송 콘텐츠 진행',
+        '교육생들의 기술적 문제 해결(Troubleshooting) 지원 및 가이드라인 지속 제공',
+        '프로젝트 관리 노하우, 협업 프로세스 전파 및 기술 세미나 진행',
+        '교육생들의 학업 성취와 성장을 돕기 위한 지속적인 멘탈케어 및 커리어 가이드',
+      ],
+      tags: ['Mentoring', 'CodeReview', 'YouTubeMC', 'Leadership', 'Architecture'],
     },
   },
 }
@@ -210,7 +224,7 @@ const enHistoryTranslation: HistoryTranslation = {
     },
     'DH-301': {
       title: 'SSAFY 14th Class Practice Coach',
-      subtitle: 'SW Practice Coach (2026.01 ~ Present)',
+      subtitle: 'SW Practice Coach (2026.01 ~ 2026.06)',
       content: 'Mentoring education trainees on project architecture design and conducting code reviews.',
       details: [
         'Supported and guided trainees in technical problem solving (Troubleshooting)',
@@ -221,6 +235,19 @@ const enHistoryTranslation: HistoryTranslation = {
         'Provided mental care for trainees\' academic achievement',
       ],
       tags: ['Mentoring', 'CodeReview', 'Leadership', 'Architecture'],
+    },
+    'DH-302': {
+      title: 'SSAFY 15th Class Practice Coach',
+      subtitle: 'SW Practice Coach (2026.06 ~ Present)',
+      content: 'Continuously performing previous coaching duties while expanding roles as 15th class Practice Coach and official SSAFY YouTube MC through contract extension.',
+      details: [
+        'Continuously performing overall SW practice, code reviews, and architecture mentoring for 15th class trainees through contract extension',
+        'Newly assigned as an official SSAFY YouTube MC alongside existing coaching duties, hosting major events, interviews, and broadcast content',
+        'Providing continuous guidance and troubleshooting support for trainees\' technical challenges',
+        'Disseminating project management know-how, collaboration processes, and conducting technical seminars',
+        'Providing ongoing mental care and career guidance to support trainees\' academic achievement',
+      ],
+      tags: ['Mentoring', 'CodeReview', 'YouTubeMC', 'Leadership', 'Architecture'],
     },
   },
 }
