@@ -115,7 +115,7 @@ export function Navigation() {
                   className="text-xs font-bold"
                 >
                   <Languages className="h-4 w-4 mr-1" />
-                  {lang.toUpperCase()}
+                  {lang === 'ko' ? 'EN' : 'KO'}
                 </Button>
                 <Button
                   variant="ghost"
@@ -141,7 +141,7 @@ export function Navigation() {
                   className="text-xs font-bold"
                 >
                   <Languages className="h-4 w-4 mr-1" />
-                  {lang.toUpperCase()}
+                  {lang === 'ko' ? 'EN' : 'KO'}
                 </Button>
                 <Button
                   variant="ghost"
