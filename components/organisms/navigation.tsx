@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Moon, Sun, Menu, X, Languages } from 'lucide-react'
-import { useTheme } from 'next-themes'
+import { useTheme } from '@/components/atoms/theme-provider'
 import { Button } from '@/components/ui/button'
 import { useI18n } from '@/hooks/use-i18n'
 import { useRouter, usePathname } from 'next/navigation'
