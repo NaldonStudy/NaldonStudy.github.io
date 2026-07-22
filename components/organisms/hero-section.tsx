@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { Hash } from 'lucide-react'
 import { withBasePath } from '@/lib/utils'
 import { useI18n } from '@/hooks/use-i18n'
 import { siteConfig } from '@/config/site'
@@ -133,6 +134,17 @@ export function HeroSection() {
                 <p className="text-sm text-muted-foreground">
                   {dict.hero.mottoSub}
                 </p>
+              </div>
+              <div className="flex flex-wrap gap-2 pt-2">
+                {dict.hero.hashtags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-all shadow-sm"
+                  >
+                    <Hash className="w-3.5 h-3.5 text-primary" />
+                    {tag.startsWith('#') ? tag.slice(1) : tag}
+                  </span>
+                ))}
               </div>
             </div>
 

@@ -22,6 +22,7 @@ export interface Dictionary {
     profileAlt: string;
     description1: string;
     description2: string;
+    hashtags: string[];
     motto: string;
     mottoSub: string;
     viewProfile: string;
