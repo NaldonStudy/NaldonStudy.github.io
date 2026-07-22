@@ -14,6 +14,7 @@ export const siteConfig = {
       "/assets/profile/DoHun2.jpg",
       "/assets/profile/DoHun3.jpg",
       "/assets/profile/DoHun4.jpg",
+      "/assets/profile/DoHun5.png",
     ],
   },
   roles: ["Backend", "Infra"],
